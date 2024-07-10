@@ -1,0 +1,30 @@
+body {
+    font-family: sans-serif;
+  }
+  
+  #tasks-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  #tasks-list li {
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  #tasks-list li input {
+    width: 70%;
+  }
+  
+  #tasks-list li button {
+    padding: 5px 10px;
+    background-color: #ddd;
+    border: none;
+    cursor: pointer;
+  }
+  
+  #tasks-list li button:nth-child(2) {
+    background-color: #999;
+  }
