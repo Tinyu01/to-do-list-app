@@ -50,11 +50,19 @@ taskflow/
 └── README.md          # Project documentation
 ```
 
-## Installation & Usage
+### Installation
 
-1. Clone this repository
-2. Open `index.html` in your browser
-3. Start adding your tasks!
+1. Clone this repository or download the files
+```bash
+git clone https://github.com/Tinyu01/to-do-list-app.git
+```
+
+2. Open the project folder
+```bash
+cd taskflow
+```
+
+3. Open `index.html` in your browser or use a local development server
 
 No build tools or server setup required.
 
@@ -95,7 +103,7 @@ MIT License - Feel free to use this project for your portfolio or client work.
 
 ## About the Developer
 
-[Your Name] is a frontend developer passionate about creating beautiful, functional interfaces that enhance user experiences. With a keen eye for design and strong technical skills, [Your Name] builds applications that are both visually appealing and performant.
+MASINGITA OTTIS MALULEKE is a Fullstack developer passionate about creating beautiful, functional interfaces that enhance user experiences. With a keen eye for design and strong technical skills, MASINGITA OTTIS MALULEKE builds applications that are both visually appealing and performant.
 
 ---
 
