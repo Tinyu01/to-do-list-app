@@ -116,7 +116,7 @@ MASINGITA OTTIS MALULEKE is a Fullstack developer passionate about creating beau
 
 ## 🌐 Live Demo
 
-[Live Demo Link](hhttps://tinyu01.github.io/to-do-list-app/)
+[Live Demo Link](https://tinyu01.github.io/to-do-list-app/)
 
 **TaskFlow: Task Management for the Modern Web**
 

@@ -56,6 +56,10 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   });
   
+  // Display the current year in the footer
+  const currentYearEl = document.getElementById('current-year');
+  currentYearEl.textContent = new Date().getFullYear();
+  
   // Functions
   function addTask() {
     const taskText = newTaskInput.value.trim();
