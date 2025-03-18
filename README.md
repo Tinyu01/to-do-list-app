@@ -105,6 +105,18 @@ MIT License - Feel free to use this project for your portfolio or client work.
 
 MASINGITA OTTIS MALULEKE is a Fullstack developer passionate about creating beautiful, functional interfaces that enhance user experiences. With a keen eye for design and strong technical skills, MASINGITA OTTIS MALULEKE builds applications that are both visually appealing and performant.
 
+## 📞 Contact Me
+
+- **Address**: 1738, San Street, Braamfischerville, Roodepoort, 1724
+- **Mobile**: 0738847449
+- **Email**: masingita.maluleke@capaciti.org.za / 216135982@edu.vut.ac.za
+- **LinkedIn**: [LinkedIn Profile](https://www.linkedin.com/in/thefreelancer201)
+
 ---
 
+## 🌐 Live Demo
+
+[Live Demo Link](hhttps://tinyu01.github.io/to-do-list-app/)
+
 **TaskFlow: Task Management for the Modern Web**
+
