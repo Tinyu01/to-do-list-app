@@ -3,15 +3,77 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>To-Do List</title>
+  <title>To Do List | Modern Task Management</title>
   <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
-  <h1>To-Do List</h1>
-  <input type="text" id="search" placeholder="Search tasks">
-  <ul id="tasks-list"></ul>
-  <input type="text" id="new-task" placeholder="Add a new task">
-  <button id="add-task">Add</button>
+  <div class="app-container">
+    <header>
+      <div class="logo">
+        <i class="fas fa-check-circle"></i>
+        <h1>To Do List</h1>
+      </div>
+      <div class="theme-toggle">
+        <i class="fas fa-moon" id="theme-icon"></i>
+      </div>
+    </header>
+    
+    <div class="stats-banner">
+      <div class="stat-item">
+        <span id="total-tasks">0</span>
+        <p>Total Tasks</p>
+      </div>
+      <div class="stat-item">
+        <span id="completed-tasks">0</span>
+        <p>Completed</p>
+      </div>
+      <div class="stat-item">
+        <span id="pending-tasks">0</span>
+        <p>Pending</p>
+      </div>
+    </div>
+    
+    <div class="search-container">
+      <i class="fas fa-search"></i>
+      <input type="text" id="search" placeholder="Search tasks...">
+    </div>
+    
+    <div class="filter-container">
+      <button class="filter-btn active" data-filter="all">All</button>
+      <button class="filter-btn" data-filter="pending">Pending</button>
+      <button class="filter-btn" data-filter="completed">Completed</button>
+    </div>
+    
+    <div class="tasks-container">
+      <ul id="tasks-list"></ul>
+      <div class="empty-state" id="empty-state">
+        <img src="/api/placeholder/300/200" alt="No tasks" class="empty-image">
+        <p>No tasks found. Add a new task to get started!</p>
+      </div>
+    </div>
+    
+    <div class="add-task-container">
+      <input type="text" id="new-task" placeholder="Add a new task">
+      <div class="priority-selector">
+        <span class="priority-dot low active" data-priority="low"></span>
+        <span class="priority-dot medium" data-priority="medium"></span>
+        <span class="priority-dot high" data-priority="high"></span>
+      </div>
+      <button id="add-task">
+        <i class="fas fa-plus"></i>
+        <span>Add Task</span>
+      </button>
+    </div>
+  </div>
+  
+  <footer>
+    <p>To Do list &copy; <span id="current-year"></span> | Designed <a>MASINGITA OTTIS MALULEKE</a> with <i class="fas fa-heart"></i></p>
+  </footer>
+
   <script src="script.js"></script>
 </body>
 </html>
